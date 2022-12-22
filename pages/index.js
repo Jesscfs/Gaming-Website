@@ -3,24 +3,24 @@ import { About, Explore, GetStarted, Hero, Insights, WhatsNew, World } from '../
 
 const Page = () => (
     <div className="bg-primary-black overflow-hidden">
-        <Navbar />
-        <Hero />
+        <Navbar/>
+        <Hero/>
         <div className="relative">
-            <About />
-            <div className="gradient-03 z-0" />
-            <Explore />
+            <About/>
+            <div className="gradient-03 z-0"/>
+            <Explore/>
         </div>
         <div className="relative">
-            <GetStarted />
-            <div className="gradient-04 z-0" />
-            <WhatsNew />
+            <GetStarted/>
+            <div className="gradient-04 z-0"/>
+            <WhatsNew/>
         </div>
         <World />
         <div className="relative">
-            <Insights />
-            <div className="gradient-04 z-0" />
+            <Insights/>
+            <div className="gradient-04 z-0"/>
         </div>
-        <Footer />
+        <Footer/>
     </div>
 );
 
